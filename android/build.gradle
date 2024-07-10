@@ -26,7 +26,10 @@ apply plugin: 'kotlin-android'
 
 android {
     
-    compileSdkVersion 34
+    // compileSdkVersion 34
+        compileSdkVersion 31  // Adjust if necessary, based on compatibility
+    buildToolsVersion "31.0.0"  // Match with the appropriate build tools version
+
       compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
